@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    margin: 0 px auto;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(3, 3, 36)
+}
+
+.header h1{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    display: inline-block;
+    color: cornsilk;
+    margin: 20px;
+}
+
+.mainbody{
+    background-color:white;
+    width:890px;
+    height:900px;  /*  might not need this */
+    display: block;
+}
+
+    .maintop{
+        width: 900px;
+        margin:20px;
+        padding-top: 20px;
+    }
+
+    .mainmid{
+        vertical-align: top;
+       /* height: 240px;
+        width: 250px;  */
+        color:white;
+        margin-left: 20px;
+    }
+        .midbox1, .midbox2, .midbox3{
+            display: inline-block;
+            width:264px;
+            height:259px;
+            background-color: rgb(12, 76, 136);
+            margin-right: 20px;
+            padding: 10px;
+        }
+
+        .iconwrench {
+                width: 29px;
+                display: inline-block;
+                background-color:white;
+                margin-left: 20px;
+                margin-right: 0px;
+                vertical-align: bottom;
+                } 
+            
+            .midbox h2{
+                display: inline-block; 
+                padding-top: 10px;
+            }
+
+            .mainmid p{
+                height: 150px;
+                color:white;
+                padding: 10px;
+                font-size: 13px;
+            }
+
+            .btn{
+                background-color:lightblue;
+                color:whitesmoke;
+                padding: 10px 15px;
+                text-decoration: none;
+                margin-left: 10px;
+                border-radius: 10px;
+            }
+
+    .header2 h3{
+        margin-left:20px;
+        display: inline-block;
+        margin-right: 225px;
+    }
+
+    .hh3{
+        margin-right: 300px;
+    }
+     
+
+    .mainbottom{
+        vertical-align: top;
+        background-color: white;
+
+
+    }
+        .bottombox1{
+            height: auto;
+            width: 240px;
+            color:black;
+            margin-left:20px;
+            display: inline;
+            vertical-align: top;  
+        }
+
+        .bottom2{
+            display: inline;
+            width: 240px;
+            color:black;
+            margin-left:20px;
+            font-size: 13px;
+        }
+
+        .bottom_img{
+            max-width:240px;
+            height:auto;
+        }
+
+        .bottom1, .bottom2, .bottom3{
+            display: inline-block;
+            width:264px;
+            height:259px;
+            background-color: white;
+            margin-right: 20px;
+            padding: 10px;
+        }
+
+        .bottom3 h4{
+            background-color: lightblue;
+            text-decoration: inherit;
+            padding: 15px;
+            margin-bottom: 20px;    
+        }
+
+        .bottom3 p{
+            font-size: 10px;
+        }
+
+    .footer{
+        width:890px;
+        height: 75px;
+        padding:20px;
+        background-color: rgb(177, 243, 243);
+        outline: 1px solid  rgb(12, 76, 136);
+    }
+
+        .footer a{
+            display: inline-block;
+            text-decoration: none;
+            margin-left: 80px;
+            background-color: rgb(177, 243, 243);
+
+        
+    }
+        
